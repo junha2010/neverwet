@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&family=Sigmar&display=swap');
 
 * {
     padding: 0;
     margin: 0;
     font-family: 'Nunito', sans-serif;
+    flex-direction: column;
 }
 
 body {
@@ -24,8 +25,14 @@ body {
 
 .main h1 {
     position: absolute;
+    width: 100%;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    letter-spacing: 3px;
+    letter-spacing: 3pc;
+}
+
+.main p {
+    font-size: 100px;
+    font-family: 'Sigmar', sans-serif;
 }
