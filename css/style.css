@@ -20,5 +20,12 @@ body {
     /* border: 1px red solid; */
     font-weight: 500;
     font-size: x-large;
-    letter-spacing: 3cap;
+}
+
+.main h1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 3px;
 }
